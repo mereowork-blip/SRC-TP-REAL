@@ -34,7 +34,7 @@ h1 { font-size: 1.6rem; }
 .container { max-width: var(--max-width); margin: 0 auto; padding: var(--space); }
 
 /* Menu : barre pleine bleue */
-.navbar { background: var(--color-primary); padding: 0 var(--space); }
+.navbar { background: var(--color-primary); padding: 0 var(--space); display: flex; justify-content: center; }
 .navbar ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; }
 .navbar .brand { color: #fff; font-weight: 700; padding: 12px var(--space) 12px 0; }
 .navbar a { display: inline-block; padding: 14px var(--space); color: #cfe0f0; }
